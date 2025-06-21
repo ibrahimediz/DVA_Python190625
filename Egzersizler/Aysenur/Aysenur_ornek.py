@@ -4,18 +4,9 @@
 
 # iki açısı kullanıcı tarafından girilen bir üçgeninn tipini ekrana yazdıran python kodunu yazınız
 # 45 - 45 ==> ikizkenar dik üçgen
-a = int(input("1. açı: "))
-b = int(input("2. açı: "))
 
+liste = ["Can","Mursit","AhmetErdem","Elif","Fatma","MehmetAli","Merve","Niyazi","Salih","Samet","Sefa","Tugce","Aysenur","Cevaplar"]
+from random import randint
 
-# Geçerli üçgen mi kontrolü
-if  a <= 0 or b <= 0:
-    print("Geçersiz açı pozitif olmalı.")
-else:
-    # Üçgen tipi belirleme
-    if a == b and a == 45:
-        print("İkizkenar dik üçgen")
-    elif a == b or a == 60:
-        print("Eşkenar üçgen")
-    else:
-        print("Belirsiz")
+# yukarıda yer alan kod satırlarından faydalanarak rastgele 3 kişinin ismini veren bir generator fonksiyon yazınız
+

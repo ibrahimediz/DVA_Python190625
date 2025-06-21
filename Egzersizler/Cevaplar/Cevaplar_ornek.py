@@ -25,3 +25,9 @@ if aci1 and aci2:
 else:
     print("Giriş Yapılmadı")
 
+
+liste = ["Can","Mursit","AhmetErdem","Elif","Fatma","MehmetAli","Merve","Niyazi","Salih","Samet","Sefa","Tugce","Aysenur","Cevaplar"]
+from random import randint
+
+# yukarıda yer alan kod satırlarından faydalanarak rastgele 3 kişinin ismini veren bir generator fonksiyon yazınız
+
