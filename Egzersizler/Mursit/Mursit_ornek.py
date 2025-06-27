@@ -48,3 +48,17 @@ from random import randint
 
 # yukarıda yer alan kod satırlarından faydalanarak rastgele 3 kişinin ismini veren bir generator fonksiyon yazınız
 
+from random import sample
+
+liste = ["Can", "Mursit", "AhmetErdem", "Elif", "Fatma", "MehmetAli",
+         "Merve", "Niyazi", "Salih", "Samet", "Sefa", "Tugce", "Aysenur", "Cevaplar"]
+
+def rastgele_kisiler_generator():
+    secilenler = sample(liste, 3)  
+    for kisi in secilenler:
+        yield kisi
+
+
+for isim in rastgele_kisiler_generator():
+    print(isim)
+
