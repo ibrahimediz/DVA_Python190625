@@ -29,5 +29,20 @@ for i in rasgele(liste):
     print(i)
 
 
+class cokgen:
+    tip = "cokgen"
+
+    def __init__(self,adi,kenarsayisi, *args,**kwargs): # constructor
+        self.adi = adi
+        self.kenarsayisi = kenarsayisi
+
+    def bilge(self):
+        print("#"*30)
+        print(self.adi)
+        print(self.kenarsayisi)
+        print(f"Ic aci toplami {(self.kenarsayisi-2)*180}")
+        print()
+
+
 
 
